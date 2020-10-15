@@ -1,0 +1,280 @@
+@import
+url('https://fonts.googleapis.com/css2?family-raleway:wght@400;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #050801;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+a{
+  position: relative;
+  display:  inline-block;
+  padding: 25px 30px;
+  margin: 40px 0;
+  color:  #03e9f4;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  letter-spacing:  4px;
+  overflow: hidden;
+  margin-right: 50px;
+}
+a:hover {
+  background: #03e9f4;
+  color: #050801;
+  box-shadow: 0 0 5x #03e9f4, 
+              0 0 25x #03e9f4,
+              0 0 50x #03e9f4,
+              0 0 2000x #03e9f4;
+  -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+/*color: rgb(194, 18, 18); */
+}
+a:nth-child(1){
+  filter:hue-rotate(270deg);
+}
+a:nth-child(2){
+  filter:hue-rotate(110deg);
+}
+a span{
+  position: absolute;
+  display:  block;
+}
+a span:nth-child(1){
+    top: 0;
+   left: 0;
+   width: 100%;
+   height: 2px;
+   background: linear-gradient(90deg,transparent,#03e9f4);
+   animation: animate1 1s linear infinite;
+}
+  @keyframes animate1{
+    0%{
+      left: -100%;
+    }
+    50%,100%{
+        left: 100%;
+    }
+}
+a span:nth-child(2){
+  top: -100;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg,transparent,#03e9f4);
+  animation: animate2 1s linear infinite;
+  animation-delay: 0.25s;
+}
+  @keyframes animate2{
+  0%{
+    top: -100%;
+  }
+  50%,100%{
+    top: 100%;
+  }
+}
+a span:nth-child(3){
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg,transparent,#03e9f4);
+  animation: animate3 1s linear infinite;
+  animation-delay: 0.50s;
+}
+  @keyframes animate3{
+    0%{
+     ight: -100%;
+ }
+  50%,100%{
+    right: 100%;
+ }
+}
+a span:nth-child(4){
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg,transparent,#03e9f4);
+  animation: animate1 ls linear infinite;
+  animation-delay: 0.75s;
+}
+  @keyframes animate4{
+    0%{
+      bottom: -100%;
+}
+    50%,100%{
+      bottom: 100%;
+}
+}
+
+/* below mostly orginal code.  see comment in copy version
+body {
+   background-image: linear-gradient(
+  45deg,
+   #ba55d3 25%,
+   #9370db 25%,
+   #9370db 50%,
+   #ba55d3 50%,
+   #ba55d3 75%,
+   #9370db 75%,
+   #9370db 100%);
+   background-size: 53.74px 53.74px;
+}
+
+  container {
+    align-items: top;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: Helvetica neue, roboto;
+        }
+  #header {
+    color: #11847d;
+    width:100%;
+    height: relative;
+    text-align: center;
+    font-size: 40px;
+    top:300px;
+    text-shadow: 2px 2px white;
+          }
+  #nav {
+    font-size: 20px;
+    color: rgb(99, 49, 64);
+    margin-left: 40%;
+    width: 75%;
+    text-align: left;
+    height: auto;
+            }  
+    a{
+      position: relative;
+      display:  inline-block;
+      padding:  25px 30px;
+      margin: 40px 0;
+      color:  #03e9f4;
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: 0.5s;
+      letter-spacing: 4px;
+      overflow: hidden;
+      margin-right: 50px;
+    /*color: whitesmoke; */
+    /*}
+    a:nth-child(1){
+      filter:hue-rotate(270deg);
+    }
+    a:nth-child(2){
+      filter:hue-rotate(110deg);
+    }
+    a span{
+      position: absolute;
+      display:  block;
+    }
+    a span:nth-child(1){
+        top: 0;
+       left: 0;
+       width: 100%;
+       height: 2px;
+       background: linear-gradient(90deg,transparent,#03e9f4);
+       animation: animate1 1s linear infinite;
+    }
+      @keyframes animate1{
+        0%{
+          left: -100%;
+        }
+        50%,100%{
+            left: 100%;
+        }
+    }
+    a span:nth-child(2){
+      top: -100;
+      right: 0;
+      width: 2px;
+      height: 100%;
+      background: linear-gradient(180deg,transparent,#03e9f4);
+      animation: animate2 1s linear infinite;
+      animation-delay: 0.25s;
+    }
+      @keyframes animate2{
+      0%{
+        top: -100%;
+      }
+      50%,100%{
+        top: 100%;
+      }
+    }
+    a span:nth-child(3{
+      bottom: 0;
+      right: 0;
+      width: 100%;
+      height: 2px;
+      background: linear-gradient(270deg,transparent,#03e9f4);
+      animation: animate3 1s linear infinite;
+      animation-delay: 0.50s;
+    }
+      @keyframes animate3{
+        0%{
+         ight: -100%;
+     }
+      50%,100%{
+        right: 100%;
+     }
+    }
+    a span:nth-child(4){
+      bottom: -100%;
+      left: 0;
+      width: 2px;
+      height: 100%;
+      background: linear-gradient(360deg,transparent,#03e9f4);
+      animation: animate1 ls linear infinite;
+      animation-delay: 0.75s;
+    }
+      @keyframes animate4{
+        0%{
+          bottom: -100%;
+    }
+        50%,100%{
+          bottom: 100%;
+    }
+  }
+  a:hover {
+      background: #03e9f4;
+      color: #050801;
+      box-shadow: 0 0 5x #03e9f4, 
+                  0 0 25x #03e9f4,
+                  0 0 50x #03e9f4,
+                  0 0 2000x #03e9f4;
+      -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+    /*color: rgb(194, 18, 18); */
+   /* }
+
+ 
+  .fa-linkedin {
+    background: #007bb6;
+    vertical-align: center;
+  }
+
+  a.i:hover {
+    color: rgb(65, 18, 194); 
+  }
+   
+  #footer {
+    clear: both;
+    background: rgb(134, 131, 131);
+    color: #fff;
+    bottom: 0px;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    position: fixed;
+  }
+

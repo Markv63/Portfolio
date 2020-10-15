@@ -1,0 +1,173 @@
+body {
+    background-image: url("http://parkvillemo.gov/wp-content/uploads/2020/01/October2018Winner_BobThompson_AutumnWaterfall.jpg");
+    background-position: center, center;
+    background-attachment: fixed;
+    background-size: cover;
+    /*width: 100%;
+    margin:   5px;*/
+      }
+   container {
+    align-items: top;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: left;
+    text-align: center;
+    font-family: Helvetica neue, roboto;
+        }
+  #header {
+   color: #11847d;
+   height: relative;
+   font-size: 40px;
+   top:300px;
+   text-shadow: 2px 2px white;
+       }
+  #nav {
+    font-size: 20px;
+    color: white;
+    float: left;
+    width:10%;
+       }  
+  a {
+    color: rgb(247, 240, 240);
+    font-size: 16px; 
+    }
+  a:hover {
+     color: rgb(194, 18, 18); 
+    }
+  #Main-content {
+    color: #926415;
+    Font-size: 16px;
+    margin-left: 10%;
+    padding: 0em;
+        }
+   h2 {
+     color: rgb(243, 234, 234);
+     text-shadow: 2px 2px blueviolet;
+   }
+   #childhood {
+    background: #9acd32;
+    margin-left: 10%;
+    font-size: 16px;
+    border: 2px solid;
+    border-radius: 6px;
+    border-color: #ffffe0;
+           }
+   #formative-years {
+    background: #9acd32;
+    margin-left: 10%;
+    font-size: 16px;
+    border: 2px solid;
+    border-radius: 6px;
+    border-color: #ffffe0;
+           }
+  #family-life {
+    background: #9acd32;
+    margin-left: 10%;
+    font-size: 16px;
+    border: 2px solid;
+    border-radius: 6px;
+    border-color: #ffffe0;
+           }
+  #worklife {
+    background: #9acd32;
+    margin-left: 10%;
+    font-size: 16px;
+    border: 2px solid;
+    border-radius: 6px;
+    border-color: #ffffe0;
+           }
+  #interests {
+    background: #9acd32;
+    margin-left: 10%;
+    font-size: 16px;
+    border: 2px solid;
+    border-radius: 6px;
+    border-color: #ffffe0;
+           }
+
+  #images {
+   /* padding: 24em;*/
+  /*  background: #7fffda;*/
+    width: 100%;
+   /* position: justify left;*/
+  }
+  #Mesa-Verde  {
+    width: 32%;
+    height: 300px;
+    border: 1px solid;
+    border-radius: 3px;
+    border-color: #ffffe0;
+  }
+  #buffalo {
+    width: 32%;
+    height: 300px;
+    border: 1px solid;
+    border-radius: 3px;
+    border-color: #ffffe0;
+  }
+  #Royals {
+    width: 32%;
+    height: 300px;
+    border: 1px solid;
+    border-radius: 3px;
+    border-color: #ffffe0;
+  }
+  #jr {
+    width: 32%;
+    height: 300px;
+    border: 1px solid;
+    border-radius: 3px;
+    border-color: #ffffe0;
+  }
+  #lexington {
+    width: 32%;
+    height: 300px;
+    border: 1px solid;
+    border-radius: 3px;
+    border-color: #ffffe0;
+  }
+  #genealogy {
+    width: 32%;
+    height: 300px;
+    border: 1px solid;
+    border-radius: 3px;
+    border-color: #ffffe0;
+  }
+  .row1 {
+    flex-wrap: wrap;
+    padding: 0 3px 0;
+    display: flex;
+   }
+  .row2 {
+    flex-wrap: wrap;
+    padding: 0 3px 0;
+    display: flex;
+   }
+  .column {
+    float: left;
+    flex: 32%;
+    padding: 0 3px 4px;
+    }
+  
+  .fa-linkedin {
+      background: #007bb6;
+      vertical-align: center;
+    }
+    
+  a.i:hover {
+      color: rgb(65, 18, 194); 
+    }
+
+  #footer {
+    clear: both;
+    background: #a0522d;
+    color: #11847c;
+    bottom: 0e;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    position: absolute;
+   }
+  
+  
